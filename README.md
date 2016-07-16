@@ -52,3 +52,11 @@ Usually resulting in something like
 ### Gollum webhook format
 
 https://developer.github.com/v3/activity/events/types/#gollumevent
+
+# Gotchas
+
+No, there is no event for page delete.
+
+No, Edit Message is not in payload.
+
+There is a SHA-1 of this revision in payload, but there is no link to compare this to previous revision, and previous revision SHA-1 is not in payload.
